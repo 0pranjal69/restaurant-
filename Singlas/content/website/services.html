@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="../dist/aos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HR:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo" id="logo">
+            <img src="./img/singla.png" alt="Logo">
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div class="links-cont">
+            <ul class="nav-links">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./about.html" class="nav-link active">About</a></li>
+                <li><a href="./services.html" class="nav-link">Services</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bgg" style="background-image: url(./img/hero_1.jpg);  ">
+        <div class="txt" class="aos-item" data-aos="fade-up" data-aos-delay="300">Our Services <br>
+            <p>A delicious and tasty food</p><span><button class="mid ">Get Started</button></span>
+        </div>
+    </div>
+
+    <section class="services">
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-utensils"></i>
+            <h3>Delicious Cuisine</h3>
+            <p>Enjoy a wide variety of delicious dishes crafted by our expert chefs.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-wine-glass-alt"></i>
+            <h3>Fine Drinks</h3>
+            <p>Explore our selection of fine wines, beers, and handcrafted cocktails.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-birthday-cake"></i>
+            <h3>Special Occasions</h3>
+            <p>Celebrate your special moments with our customizable event services.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-concierge-bell"></i>
+            <h3>Exceptional Service</h3>
+            <p>Experience top-notch service from our friendly and attentive staff.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-leaf"></i>
+            <h3>Fresh Ingredients</h3>
+            <p>Our dishes are prepared using fresh, locally sourced ingredients.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-music"></i>
+            <h3>Live Entertainment</h3>
+            <p>Enjoy live music performances while dining at our restaurant.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="300">
+            <i class="fas fa-coffee"></i>
+            <h3>Coffee & Desserts</h3>
+            <p>Indulge in a variety of delicious desserts paired with freshly brewed coffee.</p>
+        </div>
+        <div class="service-item" class="aos-item" data-aos="fade-up" data-aos-delay="400">
+            <i class="fas fa-gift"></i>
+            <h3>Gift Cards</h3>
+            <p>Surprise your loved ones with our restaurant gift cards.</p>
+        </div>
+    </section>
+    <footer class="aos-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="footer-container" >
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Welcome to our restaurant, where we serve delicious and authentic dishes. Join us for an unforgettable dining experience.</p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p><i class="fa fa-map-marker"></i>patparganj ,ip-extension</p>
+                <p><i class="fa fa-phone"></i> +91 987654321</p>
+                <p><i class="fa fa-envelope"></i> https://singlassweets.wordpress.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                   
+                </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h2>Newsletter</h2>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="../dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

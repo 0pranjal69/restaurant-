@@ -1,0 +1,277 @@
+:root {
+  --themm: rgb(255, 187, 0);
+  --bg: #85858513;
+}
+
+.the-res {
+  padding: 100px 0px;
+  background-color: var(--bg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgg {
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.bgg::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.bgg p {
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.mid {
+  position: static;
+}
+
+.txt {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+}
+
+#upr-ryt {
+  height: 300px;
+  width: 450px;
+
+}
+
+
+
+
+
+
+
+#ryt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+
+
+#cnt {
+  width: 350px;
+  font-size: 20px;
+  font-weight: 10;
+}
+
+#hed {
+  font-size: 40px;
+  padding-bottom: 10px;
+  font-family: "Playwrite HR", cursive;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+#brr {
+width: 50%;
+}
+
+.read-more {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--themm);
+  border: 1px solid var(--themm);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-top: 100px;
+}
+
+.read-more:hover {
+  background-color: var(--themm);
+  color: #fff;
+}
+
+.container {
+  padding: 100px 0px;
+}
+
+
+
+
+/*--------- services css */
+
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 70px 0px;
+}
+
+.service-item {
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+  font-size: 48px;
+  color: #f39c12;
+  /* You can change the icon color here */
+  margin-bottom: 20px;
+}
+
+.service-item h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.service-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+
+
+/* ------contact css */
+.contact-form-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+  margin: 0 auto;
+
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+  width: 80%;
+
+}
+
+.form-group label {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #222222;
+
+}
+
+.form-group input,
+.form-group textarea {
+  width: calc(100% - 30px);
+  padding: 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: var(--themm);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e67e22;
+}
+
+.contact-details {
+
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 300px;
+}
+@media (max-width: 768px) {
+  #upr-ryt {
+    height: 40vh;
+    width: 100%;
+  
+  }
+  .contact-details{
+    display: none;
+  }
+  .contact-form-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+}
+
+.contact-details h3 {
+  font-size: 40px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.contact-details ul {
+  list-style-type: none;
+  padding: 30px 0px;
+}
+
+.contact-details ul li {
+  font-size: 16px;
+  color: #666;
+  margin: 50px 0px;
+}
+
+.contact-details ul li i {
+  margin-right: 10px;
+}

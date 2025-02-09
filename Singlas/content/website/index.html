@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Singlas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/aos.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="logo" id="logo">
+            <img src="./img/singla.png" alt="Logo">
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div class="links-cont">
+            <ul class="nav-links">
+                <li><a href="./index.html" class="nav-link active">Home</a></li>
+                <li><a href="./about.html" class="nav-link">About</a></li>
+                <li><a href="./services.html" class="nav-link">Services</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="slides">
+        <div class="slider">
+            <div class="slide active" style="background-image: url('./img/about_1.jpg');">
+                <div class="txt" class="aos-item" data-aos="fade-up" data-aos-delay="300">Enjoy Delicious Food <br> at
+                    Singla's </div>
+            </div>
+            <div class="slide" style="background-image: url('./img/hero_2.jpg');">
+                <div class="txt">Eat,Drink at <br>Singla's</div>
+            </div>
+            <div class="arrows">
+                <span class="prev">&#10094;</span>
+                <span><button class="mid">Get Started</button></span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+    </div>
+    <section id="info" class="aos-item" data-aos="fade-right">
+        <span>
+            <h1 id="nm">By Singlas~</h1>
+        </span>
+        <article id="idf">
+            <div class="men"><button>Menu</button></div>
+            <div class="men"><button>Directions</button></div>
+            <div class="men"><button>Phone</button></div>
+            <div class="men"><button>Reservations</button></div>
+        </article>
+        <article id="arct">
+            <div class="ct">Do you love wafer-thin and crispy pizza? Should the pizza also be juicy? Then you will feel
+                very comfortable in our new restaurant in Ismaning.
+                Pizza enjoyment at the highest level - pizza masters from Venice - homemade pasta.</div>
+            <div id="break"></div>
+            <div class="ct">We serve fresh products of the highest quality. Taste and appearance are very important to
+                us. Italian cuisine, traditionally prepared with love, that is what the Ristorante Da Francesco in
+                Ismaning stands for.
+                Your Italian in Ismaning. We look forward to your visit.</div>
+        </article>
+    </section>
+    <section class="aos-item" data-aos="fade" data-aos-delay="300" id="smenu">
+        <div id="brr"></div>
+        <div id="tx" data-aos="fade">Special Menu</div>
+        <div id="crr" data-aos="fade-right" data-aos-delay="300">
+            <div class="carousel">
+                <button class="car-prev car">&#10094;</button>
+                <div class="carousel-container">
+                    <div class="carousel-slide">
+                        <div class="carousel-item">
+                            <img src="./img/dishes_4.jpg" alt="Image 1">
+                            <div class="caption">
+                                <h1>100rs <br><br> name of dish</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/dishes_3.jpg" alt="Image 2">
+                            <div class="caption">
+                                <h1>100rs <br><br> name of dish</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/dishes_2.jpg" alt="Image 3">
+                            <div class="caption">
+                                <h1>100rs <br><br> name of dish</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/dishes_1.jpg" alt="Image 4">
+                            <div class="caption">
+                                <h1>100rs <br><br> name of dish</h1>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/dishes_5.jpg" alt="Image 5">
+                            <div class="caption">
+                                <h1>100rs <br><br> name of dish</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="car-next car">&#10095;</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section" class="aos-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="container">
+            <div id="brr"></div>
+            <h2 class="section-title">Our Menu</h2>
+            <div class="blog-posts">
+                <div class="blog-post">
+                    <img src="./img/person_1.jpg" alt="Blog Post 1">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Bacon wrapped wild gulf prawns</h3>
+                        <p class="blog-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+                            ac sagittis tortor.</p>
+                        <div class="rte">200rs/-</div>
+
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <img src="./img/dishes_5.jpg" alt="Blog Post 2">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Baked new Zealand mussels</h3>
+                        <p class="blog-description">Phasellus bibendum orci sit amet mulla vulputate, ut convallis
+                            ligula vehicula.</p>
+                        <div class="rte">200rs/-</div>
+
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <img src="./img/person_2.jpg" alt="Blog Post 3">
+                    <div class="blog-content">
+                        <h3 class="blog-title">Spicy Calamari and beans</h3>
+                        <p class="blog-description">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                            posuere cubilia Curae.</p>
+                        <div class="rte">200rs/-</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial" class="aos-item" data-aos="fade-right" data-aos-delay="300">
+        <div id="brr"></div>
+        <h1>Testimonial</h1>
+        <div class="testimonial-container">
+            <div class="testimonial-slide">
+                <p>"This is an amazing service! I couldn't be happier."</p>
+                <h4>- John Doe</h4>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Excellent customer support and fast delivery."</p>
+                <h4>- Jane Smith</h4>
+            </div>
+            <div class="testimonial-slide">
+                <p>"Highly recommend to everyone looking for quality and reliability."</p>
+                <h4>- Alice Johnson</h4>
+            </div>
+        </div>
+    </section>
+    <footer class="aos-item" data-aos="fade-up" data-aos-delay="300">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>Welcome to our restaurant, where we serve delicious and authentic dishes. Join us for an
+                    unforgettable dining experience.</p>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p><i class="fa fa-map-marker"></i>patparganj ,ip-extension</p>
+                <p><i class="fa fa-phone"></i> +91 987654321</p>
+                <p><i class="fa fa-envelope"></i> https://singlassweets.wordpress.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fa fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+
+                </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h2>Newsletter</h2>
+                <form action="#">
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+    <script src="../dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+
+</body>
+
+</html>
